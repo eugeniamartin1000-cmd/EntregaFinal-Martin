@@ -14,8 +14,6 @@ Este proyecto fue realizado para plasmar los conocimientos del curso de React de
 
 >Es necesario contar con Node v25.3.0 instalado
 
-###Version Host
-Si desea ver el proyecto online, puede ingresar al siguiente link:
 
 ### Librerias Utilizadas
 
