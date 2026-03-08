@@ -39,7 +39,7 @@ const terminarCompra = (e)=> {
             fecha: serverTimestamp()
         }
         const orderCollection = collection(db, "orders")
-        //agregar el doc
+     
         addDoc(orderCollection, order)
         .then((res)=> {
             setOrderId(res.id)

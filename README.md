@@ -1,17 +1,27 @@
-# React + Vite
+# Entrega Final Martin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto fue realizado para plasmar los conocimientos del curso de React de Coderhouse.
 
-Currently, two official plugins are available:
+![app] (/public/readme.png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalación
 
-## React Compiler
+1. Clonar el repositorio.
+2. Moverse a la carpeta creada con el comando 'cd EntregaFinal+Martin'.
+3. Ejecute el comando 'npm install' para instalar dependencias y crear la carpeta 'node_modules'.
+4. Ejecute el comando 'npm run dev' para levantar la app en un entorno local.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+>Es necesario contar con Node v25.3.0 instalado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# EntregaFinal-Martin
+###Version Host
+Si desea ver el proyecto online, puede ingresar al siguiente link:
+
+### Librerias Utilizadas
+
+-[React Boostrap] (https://react-bootstrap.netlify.app): Utilizada para el styling de la app.
+-[React Router Dom] (https://reactrouter.com/) : Utilizada para implementar la navegacion por rutas.
+-[Sweetalert2] (https://sweetalert2.github.io) :Utilizada para aparición de alerta.
+-[Firebase] (https://firebase.google.com/): Utilizada como base de datos.
+
+Desarrollado por María Eugenia Martín
