@@ -206,7 +206,7 @@
         stock: 20,
         price: 25.00,
         category: 'Smart-led',
-        subcategory: 'WiBus',
+        subcategory: 'WIBUS',
         img:'../img/SL01.svg'
     },
     {
@@ -216,7 +216,7 @@
         stock: 20,
         price: 32.00,
         category: 'Smart-led',
-        subcategory: 'WiBus',
+        subcategory: 'WIBUS',
         img:'../img/SL01.svg'
     },
     {

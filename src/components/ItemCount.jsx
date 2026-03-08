@@ -7,7 +7,6 @@ const ItemCount = ({ stock, onAdd }) => {
 const sumItems = () => {
   if (count < stock) {
     setCount(count + 1);
-    console.log("Sumar → nuevo count:", count + 1);
   }
 };
 
@@ -15,13 +14,12 @@ const sumItems = () => {
 const substractItems = () => {
   if (count > 1) {
     setCount(count - 1);
-    console.log("Restar → nuevo count:", count - 1);
   }
 };
 
 
 const addToCart = () => {
-  console.log("Agregado al carrito:", count);
+
   onAdd(count);
 };
 

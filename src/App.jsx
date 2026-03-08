@@ -9,7 +9,7 @@ import { CartProvider } from '../context/CartContext';
 import Checkout from './components/CheckOut';
 
 function App() { 
-  console.log('App');
+
   return (
     <CartProvider>
         <NavBar/>
