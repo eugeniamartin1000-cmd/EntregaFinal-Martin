@@ -1,0 +1,92 @@
+.item-card {
+   max-width: 280px;
+   border-radius: 27px;
+   border: 1.4px solid #EEEDED;
+   display: flex;
+   flex-direction: column;
+   height: 400;
+   text-decoration: none;
+}
+
+.card-body {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+}
+
+.product-img{
+    border-radius: 27px 27px 0 0;
+    width: 100%;
+}
+
+.description{
+    color: #1e2639;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.198px;
+    margin: 6px 22px 0 21px;
+}
+
+.product-name{
+    color: #bdbfc1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.176px;
+    margin:0 22px 0 21px;
+    height: 36px;
+}
+
+.price {
+    color: #1e2639;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 13px 22px 0 21px;
+}
+
+.iva{
+    color: #bdbfc1;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.143px;
+    margin: 0 22px 0 21px;
+}
+
+.stock {
+   margin-top: auto;
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 150%;
+   letter-spacing: -0.143px;
+   margin: 9px 22px 13px 21px;
+}
+
+.stock-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.stock-ok .stock-dot {
+  background-color: #69C350;
+}
+
+.stock-low .stock-dot {
+  background-color: #FBD84B;
+}
+
+.stock-out .stock-dot {
+  background-color: #D78801;
+}

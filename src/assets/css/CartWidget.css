@@ -1,0 +1,139 @@
+.cart-widget{
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-right: 80px;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.cart-dropdown {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  background: white;
+  border: 1px solid #ddd;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  padding: 10px;
+  border-radius: 23px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  height: 80px;
+  border-bottom: 1px solid #E4E3E3;
+}
+.cart-item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 80%;
+    font-weight: 700;
+    color: #1E2639;
+}
+
+.quantity{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.cart-item-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-badge{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    font-size: 12px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0A82FA;
+    color: white;
+    border-radius: 20px;
+}
+
+.empty-cart{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.empty-cart img{
+    margin-top: 20px;
+    height: 46px;
+    width: 46px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    margin:20px;
+    text-align: center;
+}
+
+.remove-item{
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.remove-item img{
+    height: 15px;
+}
+
+.btn{
+    background-color: #0A82FA;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 40%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: auto;
+}
